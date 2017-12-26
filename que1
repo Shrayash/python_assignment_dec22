@@ -1,0 +1,7 @@
+num = input("Enter the number: ")
+dict_new = dict()
+
+for i in range(1, num+1):
+    dict_new[i] = i*i
+
+print(dict_new)
